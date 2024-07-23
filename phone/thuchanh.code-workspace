@@ -1,0 +1,45 @@
+{
+  "folders": [
+	{
+		"path": "../css-tt"
+	},
+	{
+		"path": "HT MOBILE/access/css"
+	}
+],
+  "settings": {
+    "sqltools.connections": [
+      {
+        "mysqlOptions": {
+          "authProtocol": "default",
+          "enableSsl": "Disabled"
+        },
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 6000,
+        "driver": "MySQL",
+        "name": "MySQL ",
+        "database": "demo",
+        "username": "root",
+        "password": "123098",
+        "connectionTimeout": 50
+      },
+      {
+        "mysqlOptions": {
+          "authProtocol": "xprotocol",
+          "enableSsl": "Disabled"
+        },
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 9000,
+        "driver": "MySQL",
+        "name": "MySQL Local",
+        "database": "demo",
+        "username": "root",
+        "password": "123098",
+        "connectionTimeout": 30
+      }
+    ],
+    "liveServer.settings.multiRootWorkspaceName": "css-tt"
+  }
+}
